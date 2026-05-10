@@ -31,7 +31,7 @@ document.body.appendChild(renderer.domElement);
 
 // 6. Animation Loop
 function animate() {
-    // Optional: Add some rotation so you can see the 3D depth
+
     cube.rotation.x += 0.01;
     cube.rotation.y += 0.01;
     
